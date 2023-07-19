@@ -22,5 +22,7 @@ from home import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', views.home),
+    path('home3/', views.home2),
+    path('home2/', views.home),
 ##  path('home' , views.home) --教训：home 后面的 少了 /,折腾半天 
 ]

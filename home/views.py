@@ -6,3 +6,7 @@ from django.http import HttpResponse
 
 def home(request):
     return HttpResponse('Hello, world!')
+
+
+def home2(request):
+    return HttpResponse('Hello, world2!')
